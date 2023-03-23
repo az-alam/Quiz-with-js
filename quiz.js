@@ -64,7 +64,7 @@ button.onclick = () => {
         else {
             timer.innerHTML = --i;
         }
-    }, 100)
+    }, 1000)
 }
 
 function nextquestion(){
