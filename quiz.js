@@ -88,3 +88,20 @@ function showcheckbox(){
     document.querySelector('#screen2 .options').append(span);
     }
 }
+
+
+
+
+// function showcheckbox(){
+//     document.querySelector('#screen2 .options').innerHTML = ''
+//     for(let j=1; j<=4; j++){
+//     const checkbox=document.createElement('input');
+//     checkbox.setAttribute('type','radio');
+//     checkbox.setAttribute('name','option');
+
+//     const span = document.createElement("span")
+//     span.innerHTML =  data[qustionCounter].Options[j-1]
+//     document.querySelector('#screen2 .options').append(checkbox);
+//     document.querySelector('#screen2 .options').append(span);
+//     }
+// }
